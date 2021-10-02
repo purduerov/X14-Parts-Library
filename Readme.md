@@ -1,26 +1,49 @@
-# Readme for X13-Power-Bricks
+# X14-Parts-Library
 
-Whenever you make a new part, download the datasheet and save it here _**and**_ with the part in the parts library
+To create a new part:
+1. Before you begin work, pull recent updates from the repo with:
 
-Always pull other people's changes before beginning to work
-`git pull`
+	`git switch master`
+	Or if you're old fashioned `git checkout master`.
 
-Be sure to push your changes after  working on them. Run:
-1. `git add .` to add any files in this directory or a subdirectory
-or `git add -u` to add any modified files
-2. (Optional) `git clean -nX` to see what ignored files can be removed
-	`git clean -fX` removes ignored files (Eagle backups)
-3. `git commit -m "helpful commit message"` with a description of the work that you did
-4. `git push` to push your work to github
+	Then: `git pull`
 
-Other helpful commands
-* `git status` says information about modified and staged files
-* `git log` shows the recent commits of the repository
-* `git log filename.extension` show the recent commits for just that file
-* `git checkout first-couple-letter-of-commit-id` lets you go back to a previous version
-* `git checkout master` brings you back to the latest commit
-* `git tag` lists the tags
-* `git tag -a orderX -m "the version of the board placed for the X'th order"` tag a specific commit
-* `git push --tags` needed to push tags to remote
-* `git show orderX` show the commit log for the given tag
-* `git checkout orderX` go back and interact with the files at the tagged commit
+2. Create a new branch for your part with (replace NEW_BRANCH_NAME with your own _new_ branch name):
+	Make the branch name something descriptive like (Pi-Shield-Parts or Molex-nanofit)
+
+	`git checkout -b NEW_BRANCH_NAME`
+
+3. Make your changes in eagle to create the part.
+	Name each part something descriptive (HMCA1305 does not immediately tell me anything about it).
+	Each part should have the appropriate prefix first:
+		- RES for resistor
+		- CAP for capacitor
+		- IND for inductor
+		- CONN for connector
+		- TRANS for transistor (mosfet, bjt, etc)
+		- DIODE for diodes
+		- IC for integrated circuits (muxes, microcontrollers, communication, etc.)
+		- AUX for pre-made boards that we solder in with through holes (bricks, through hole linear regulators, IMUs, etc)
+		- OTHER for other (mounting holes, etc)
+	Download the datasheet for any part you make and save it with the part in the git repo and in the board's repo.
+
+4. Getting rid of eagle's backup files:
+
+	`git clean -n -X`  To see what files would be removed  
+	`git clean -f -X`  To remove said files
+
+5. Add you changes with:
+
+	`git add .`
+
+6. Commit your changes (this saves them) with (replace your message with an explanation of what was added):
+
+	`git commit -m "YOUR MESSAGE"`
+	ex: `git commit -m "Made the 4 pin molex 371/372 series miniclamp connector (part XXXX) for the backplane board."`
+
+7. Push your changes to the remote repo with (use the same name as before):
+
+	`git push`.
+	If the branch was just created, do `git push -u origin NEW_BRANCH_NAME`
+	
+8. Open a pull request on [GitHub](https://github.com/purduerov/X13-Parts-Library/pulls) to merge your branch into master.
