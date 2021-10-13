@@ -58,7 +58,7 @@
 </layers>
 <library>
 <packages>
-<package name="SAMTEC_PETC-02-40-02-01-X-VT">
+<package name="SAMTEC_PETC-02-40-01-X-VT_DTOB">
 <description>VERTICAL POWER SOCKET.</description>
 <text x="-34.8" y="10.8" size="1.27" layer="25">&gt;NAME</text>
 <text x="-34.8" y="9.3" size="1.27" layer="27">&gt;VALUE</text>
@@ -301,7 +301,7 @@
 <gate name="G$1" symbol="PETC-02-40-02-01-X-VT" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SAMTEC_PETC-02-40-02-01-X-VT">
+<device name="" package="SAMTEC_PETC-02-40-01-X-VT_DTOB">
 <connects>
 <connect gate="G$1" pin="PWR01" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
 <connect gate="G$1" pin="PWR02" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
