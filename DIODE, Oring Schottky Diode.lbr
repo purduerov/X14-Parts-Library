@@ -74,8 +74,8 @@
 <library>
 <packages>
 <package name="DIODE-DO-214AC(SK34ATR)">
-<smd name="P$1" x="-2.3" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
-<smd name="P$2" x="2.2" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
+<smd name="1" x="-2.3" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
+<smd name="2" x="2.2" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
 <wire x1="-3.4" y1="1.425" x2="3.3" y2="1.425" width="0.1524" layer="39"/>
 <wire x1="3.3" y1="1.425" x2="3.3" y2="-1.425" width="0.1524" layer="39"/>
 <wire x1="3.3" y1="-1.425" x2="-3.4" y2="-1.425" width="0.1524" layer="39"/>
@@ -86,8 +86,8 @@
 </packages>
 <symbols>
 <symbol name="DIODE-DO-214AC(SK34ATR)">
-<pin name="P$1" x="-6.35" y="0" length="middle"/>
-<pin name="P$2" x="7.366" y="0" length="middle" rot="R180"/>
+<pin name="1" x="-6.35" y="0" length="middle"/>
+<pin name="2" x="7.366" y="0" length="middle" rot="R180"/>
 <polygon width="0.1524" layer="94">
 <vertex x="-1.27" y="2.54"/>
 <vertex x="-1.27" y="-2.54"/>
@@ -108,8 +108,8 @@
 <devices>
 <device name="" package="DIODE-DO-214AC(SK34ATR)">
 <connects>
-<connect gate="D$1" pin="P$1" pad="P$1"/>
-<connect gate="D$1" pin="P$2" pad="P$2"/>
+<connect gate="D$1" pin="1" pad="1"/>
+<connect gate="D$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>

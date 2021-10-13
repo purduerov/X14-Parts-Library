@@ -74,11 +74,11 @@
 <library>
 <packages>
 <package name="TSW-105-05-G-S">
-<pad name="P$1" x="-5.1" y="0" drill="0.7" shape="square"/>
-<pad name="P$2" x="-2.56" y="0" drill="0.7" shape="square"/>
-<pad name="P$3" x="-0.02" y="0" drill="0.7" shape="square"/>
-<pad name="P$4" x="2.52" y="0" drill="0.7" shape="square"/>
-<pad name="P$5" x="5.06" y="0" drill="0.7" shape="square"/>
+<pad name="1" x="-5.1" y="0" drill="0.7" shape="square"/>
+<pad name="2" x="-2.56" y="0" drill="0.7" shape="square"/>
+<pad name="3" x="-0.02" y="0" drill="0.7" shape="square"/>
+<pad name="4" x="2.52" y="0" drill="0.7" shape="square"/>
+<pad name="5" x="5.06" y="0" drill="0.7" shape="square"/>
 <wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.1524" layer="1"/>
 <wire x1="-6.35" y1="-1.27" x2="6.35" y2="-1.27" width="0.1524" layer="1"/>
 <wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.1524" layer="1"/>
@@ -108,11 +108,11 @@
 <devices>
 <device name="" package="TSW-105-05-G-S">
 <connects>
-<connect gate="G$1" pin="VIN+" pad="P$1"/>
-<connect gate="G$1" pin="VIN-" pad="P$4"/>
-<connect gate="G$1" pin="VOUT+_3" pad="P$2"/>
-<connect gate="G$1" pin="VOUT+_5" pad="P$3"/>
-<connect gate="G$1" pin="VOUT-" pad="P$5"/>
+<connect gate="G$1" pin="VIN+" pad="1"/>
+<connect gate="G$1" pin="VIN-" pad="4"/>
+<connect gate="G$1" pin="VOUT+_3" pad="2"/>
+<connect gate="G$1" pin="VOUT+_5" pad="3"/>
+<connect gate="G$1" pin="VOUT-" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
