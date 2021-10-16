@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -293,60 +293,40 @@
 <pin name="SIG39" x="-15.24" y="-25.4" length="middle"/>
 <pin name="SIG40" x="15.24" y="-25.4" length="middle" rot="R180"/>
 </symbol>
+<symbol name="PETC_NEW">
+<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
+<pin name="12V" x="-17.78" y="10.16" length="middle"/>
+<pin name="12VGND" x="-17.78" y="5.08" length="middle"/>
+<pin name="48V" x="-17.78" y="-2.54" length="middle"/>
+<pin name="48VGND" x="-17.78" y="-7.62" length="middle"/>
+<pin name="ALERT" x="17.78" y="5.08" length="middle" rot="R180"/>
+<pin name="CLK" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="C2" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="ON/OFF" x="17.78" y="-10.16" length="middle" rot="R180"/>
+<pin name="DATA" x="17.78" y="10.16" length="middle" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="PETC-02-40-02-01-X-VT" prefix="J">
 <description>CONN HEADER VERT 44 POS  </description>
 <gates>
-<gate name="G$1" symbol="PETC-02-40-02-01-X-VT" x="0" y="0"/>
+<gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SAMTEC_PETC-02-40-01-X-VT_DTOB">
 <connects>
-<connect gate="G$1" pin="PWR01" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
-<connect gate="G$1" pin="PWR02" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
-<connect gate="G$1" pin="PWR03" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8"/>
-<connect gate="G$1" pin="PWR04" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
-<connect gate="G$1" pin="SIG01" pad="S01"/>
-<connect gate="G$1" pin="SIG02" pad="S02"/>
-<connect gate="G$1" pin="SIG03" pad="S03"/>
-<connect gate="G$1" pin="SIG04" pad="S04"/>
-<connect gate="G$1" pin="SIG05" pad="S05"/>
-<connect gate="G$1" pin="SIG06" pad="S06"/>
-<connect gate="G$1" pin="SIG07" pad="S07"/>
-<connect gate="G$1" pin="SIG08" pad="S08"/>
-<connect gate="G$1" pin="SIG09" pad="S09"/>
-<connect gate="G$1" pin="SIG10" pad="S10"/>
-<connect gate="G$1" pin="SIG11" pad="S11"/>
-<connect gate="G$1" pin="SIG12" pad="S12"/>
-<connect gate="G$1" pin="SIG13" pad="S13"/>
-<connect gate="G$1" pin="SIG14" pad="S14"/>
-<connect gate="G$1" pin="SIG15" pad="S15"/>
-<connect gate="G$1" pin="SIG16" pad="S16"/>
-<connect gate="G$1" pin="SIG17" pad="S17"/>
-<connect gate="G$1" pin="SIG18" pad="S18"/>
-<connect gate="G$1" pin="SIG19" pad="S19"/>
-<connect gate="G$1" pin="SIG20" pad="S20"/>
-<connect gate="G$1" pin="SIG21" pad="S21"/>
-<connect gate="G$1" pin="SIG22" pad="S22"/>
-<connect gate="G$1" pin="SIG23" pad="S23"/>
-<connect gate="G$1" pin="SIG24" pad="S24"/>
-<connect gate="G$1" pin="SIG25" pad="S25"/>
-<connect gate="G$1" pin="SIG26" pad="S26"/>
-<connect gate="G$1" pin="SIG27" pad="S27"/>
-<connect gate="G$1" pin="SIG28" pad="S28"/>
-<connect gate="G$1" pin="SIG29" pad="S29"/>
-<connect gate="G$1" pin="SIG30" pad="S30"/>
-<connect gate="G$1" pin="SIG31" pad="S31"/>
-<connect gate="G$1" pin="SIG32" pad="S32"/>
-<connect gate="G$1" pin="SIG33" pad="S33"/>
-<connect gate="G$1" pin="SIG34" pad="S34"/>
-<connect gate="G$1" pin="SIG35" pad="S35"/>
-<connect gate="G$1" pin="SIG36" pad="S36"/>
-<connect gate="G$1" pin="SIG37" pad="S37"/>
-<connect gate="G$1" pin="SIG38" pad="S38"/>
-<connect gate="G$1" pin="SIG39" pad="S39"/>
-<connect gate="G$1" pin="SIG40" pad="S40"/>
+<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8 P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
+<connect gate="G$1" pin="12VGND" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8 P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
+<connect gate="G$1" pin="48V" pad="S01 S02 S03 S04 S05 S06 S07 S08 S09 S10 S11 S12"/>
+<connect gate="G$1" pin="48VGND" pad="S29 S30 S31 S32 S33 S34 S35 S36 S37 S38 S39 S40"/>
+<connect gate="G$1" pin="ALERT" pad="S17"/>
+<connect gate="G$1" pin="C2" pad="S18"/>
+<connect gate="G$1" pin="CLK" pad="S19"/>
+<connect gate="G$1" pin="DATA" pad="S20"/>
+<connect gate="G$1" pin="ON/OFF" pad="S21"/>
 </connects>
 <technologies>
 <technology name="">
