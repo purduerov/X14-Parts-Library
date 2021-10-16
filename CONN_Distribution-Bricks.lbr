@@ -310,7 +310,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PETC-02-40-02-01-X-VT" prefix="J">
+<deviceset name="PETC-02-40-02-01-X-VT(DTOB)" prefix="J">
 <description>CONN HEADER VERT 44 POS  </description>
 <gates>
 <gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
@@ -335,6 +335,29 @@
 <attribute name="PARTREV" value="D"/>
 <attribute name="STANDARD" value="Manufacturer Recommendations"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PETC-02-40-01-X-VT(BTOD)">
+<gates>
+<gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SAMTEC_PETC-02-40-01-X-VT_BTOD">
+<connects>
+<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8 P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
+<connect gate="G$1" pin="12VGND" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8 P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
+<connect gate="G$1" pin="48V" pad="29 30 31 32 33 34 35 36 37 38 39 40"/>
+<connect gate="G$1" pin="48VGND" pad="01 02 03 04 05 06 07 08 09 10 11 12"/>
+<connect gate="G$1" pin="ALERT" pad="17"/>
+<connect gate="G$1" pin="C2" pad="18"/>
+<connect gate="G$1" pin="CLK" pad="19"/>
+<connect gate="G$1" pin="DATA" pad="20"/>
+<connect gate="G$1" pin="ON/OFF" pad="21"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
