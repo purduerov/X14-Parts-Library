@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -73,43 +73,103 @@
 </layers>
 <library>
 <packages>
-<package name="DIODE-DO-214AC(SK34ATR)">
-<smd name="1" x="-2.3" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
-<smd name="2" x="2.2" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
-<wire x1="-3.4" y1="1.425" x2="3.3" y2="1.425" width="0.1524" layer="39"/>
-<wire x1="3.3" y1="1.425" x2="3.3" y2="-1.425" width="0.1524" layer="39"/>
-<wire x1="3.3" y1="-1.425" x2="-3.4" y2="-1.425" width="0.1524" layer="39"/>
-<wire x1="-3.4" y1="-1.425" x2="-3.4" y2="1.425" width="0.1524" layer="39"/>
-<text x="-3.81" y="1.27" size="1.778" layer="25">&gt;NAME</text>
-<text x="-4.064" y="-3.302" size="1.778" layer="27">&gt;VALUE</text>
+<package name="IPL1-106-01-L-D-K(D-B)">
+<pad name="1" x="-6.35" y="1.27" drill="0.7"/>
+<pad name="7" x="-6.35" y="-1.27" drill="0.7"/>
+<pad name="2" x="-3.81" y="1.27" drill="0.7"/>
+<pad name="8" x="-3.81" y="-1.27" drill="0.7"/>
+<pad name="3" x="-1.27" y="1.27" drill="0.7"/>
+<pad name="9" x="-1.27" y="-1.27" drill="0.7"/>
+<pad name="4" x="1.27" y="1.27" drill="0.7"/>
+<pad name="10" x="1.27" y="-1.27" drill="0.7"/>
+<pad name="5" x="3.81" y="1.27" drill="0.7"/>
+<pad name="11" x="3.81" y="-1.27" drill="0.7"/>
+<pad name="6" x="6.35" y="1.27" drill="0.7"/>
+<pad name="12" x="6.35" y="-1.27" drill="0.7"/>
+<wire x1="-8.255" y1="3.27" x2="-8.255" y2="-3.08" width="0.1524" layer="1"/>
+<wire x1="-8.255" y1="-3.08" x2="7.897" y2="-3.08" width="0.1524" layer="1"/>
+<wire x1="7.897" y1="-3.08" x2="7.897" y2="3.27" width="0.1524" layer="1"/>
+<wire x1="7.897" y1="3.27" x2="-8.255" y2="3.27" width="0.1524" layer="1"/>
+<text x="-8.49" y="3.31" size="1.778" layer="25">&gt;NAME</text>
+</package>
+<package name="IPL1-106-01-L-D-K(B-D)">
+<pad name="7" x="-6.35" y="1.27" drill="0.7" shape="square"/>
+<pad name="1" x="-6.35" y="-1.27" drill="0.7" shape="square"/>
+<pad name="8" x="-3.81" y="1.27" drill="0.7" shape="square"/>
+<pad name="2" x="-3.81" y="-1.27" drill="0.7" shape="square"/>
+<pad name="9" x="-1.27" y="1.27" drill="0.7" shape="square"/>
+<pad name="3" x="-1.27" y="-1.27" drill="0.7" shape="square"/>
+<pad name="10" x="1.27" y="1.27" drill="0.7" shape="square"/>
+<pad name="4" x="1.27" y="-1.27" drill="0.7" shape="square"/>
+<pad name="11" x="3.81" y="1.27" drill="0.7" shape="square"/>
+<pad name="5" x="3.81" y="-1.27" drill="0.7" shape="square"/>
+<pad name="12" x="6.35" y="1.27" drill="0.7" shape="square"/>
+<pad name="6" x="6.35" y="-1.27" drill="0.7" shape="square"/>
+<wire x1="-8.255" y1="3.27" x2="-8.255" y2="-3.08" width="0.1524" layer="1"/>
+<wire x1="-8.255" y1="-3.08" x2="7.897" y2="-3.08" width="0.1524" layer="1"/>
+<wire x1="7.897" y1="-3.08" x2="7.897" y2="3.27" width="0.1524" layer="1"/>
+<wire x1="7.897" y1="3.27" x2="-8.255" y2="3.27" width="0.1524" layer="1"/>
+<text x="-8.49" y="3.31" size="1.778" layer="25">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
-<symbol name="DIODE-DO-214AC(SK34ATR)">
-<pin name="1" x="-6.35" y="0" length="middle"/>
-<pin name="2" x="7.366" y="0" length="middle" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-1.27" y="2.54"/>
-<vertex x="-1.27" y="-2.54"/>
-<vertex x="2.286" y="0"/>
-</polygon>
-<wire x1="3.556" y1="2.54" x2="2.286" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="2.54" x2="2.286" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-2.794" x2="1.27" y2="-2.794" width="0.1524" layer="94"/>
-<text x="-3.556" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.064" y="-4.572" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="IPL1-106-01-L-D-K">
+<pin name="5V" x="-13.97" y="4.572" length="middle"/>
+<pin name="3.3V" x="-13.97" y="-0.508" length="middle"/>
+<pin name="GND_5V" x="-13.97" y="-5.588" length="middle"/>
+<pin name="DATA" x="16.256" y="6.096" length="middle" rot="R180"/>
+<pin name="ALERT_1" x="16.256" y="3.556" length="middle" rot="R180"/>
+<pin name="ALERT_2" x="16.256" y="1.016" length="middle" rot="R180"/>
+<pin name="CLK" x="16.256" y="-1.524" length="middle" rot="R180"/>
+<pin name="C2_1" x="16.256" y="-4.064" length="middle" rot="R180"/>
+<pin name="C2_2" x="16.256" y="-6.604" length="middle" rot="R180"/>
+<wire x1="-8.89" y1="8.128" x2="-8.89" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="-8.89" y1="-9.144" x2="10.922" y2="-9.144" width="0.1524" layer="94"/>
+<wire x1="10.922" y1="-9.144" x2="10.922" y2="8.128" width="0.1524" layer="94"/>
+<wire x1="10.922" y1="8.128" x2="-8.89" y2="8.128" width="0.1524" layer="94"/>
+<text x="-9.144" y="8.636" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-DO-214AC(SK34ATR)">
+<deviceset name="DISTRIBUTION-BACKPLANE">
 <gates>
-<gate name="D$1" symbol="DIODE-DO-214AC(SK34ATR)" x="0" y="0"/>
+<gate name="G$1" symbol="IPL1-106-01-L-D-K" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIODE-DO-214AC(SK34ATR)">
+<device name="" package="IPL1-106-01-L-D-K(D-B)">
 <connects>
-<connect gate="D$1" pin="1" pad="1"/>
-<connect gate="D$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3.3V" pad="4"/>
+<connect gate="G$1" pin="5V" pad="1 2 3"/>
+<connect gate="G$1" pin="ALERT_1" pad="8"/>
+<connect gate="G$1" pin="ALERT_2" pad="9"/>
+<connect gate="G$1" pin="C2_1" pad="11"/>
+<connect gate="G$1" pin="C2_2" pad="12"/>
+<connect gate="G$1" pin="CLK" pad="10"/>
+<connect gate="G$1" pin="DATA" pad="7"/>
+<connect gate="G$1" pin="GND_5V" pad="5 6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BACKPLANE-DISTRIBUTION">
+<gates>
+<gate name="G$1" symbol="IPL1-106-01-L-D-K" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="IPL1-106-01-L-D-K(B-D)">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="4"/>
+<connect gate="G$1" pin="5V" pad="1 2 3"/>
+<connect gate="G$1" pin="ALERT_1" pad="8"/>
+<connect gate="G$1" pin="ALERT_2" pad="9"/>
+<connect gate="G$1" pin="C2_1" pad="11"/>
+<connect gate="G$1" pin="C2_2" pad="12"/>
+<connect gate="G$1" pin="CLK" pad="10"/>
+<connect gate="G$1" pin="DATA" pad="7"/>
+<connect gate="G$1" pin="GND_5V" pad="5 6"/>
 </connects>
 <technologies>
 <technology name=""/>
