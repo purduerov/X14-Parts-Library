@@ -79,11 +79,16 @@
 <pad name="3" x="-0.02" y="0" drill="0.7"/>
 <pad name="4" x="2.52" y="0" drill="0.7"/>
 <pad name="5" x="5.06" y="0" drill="0.7"/>
-<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-1.27" width="0.1524" layer="1"/>
-<wire x1="-6.35" y1="-1.27" x2="6.35" y2="-1.27" width="0.1524" layer="1"/>
-<wire x1="6.35" y1="-1.27" x2="6.35" y2="1.27" width="0.1524" layer="1"/>
+<wire x1="-6.35" y1="1.27" x2="-6.35" y2="-3.81" width="0.1524" layer="1"/>
+<wire x1="-6.35" y1="-3.81" x2="6.35" y2="-3.81" width="0.1524" layer="1"/>
+<wire x1="6.35" y1="-3.81" x2="6.35" y2="1.27" width="0.1524" layer="1"/>
 <wire x1="6.35" y1="1.27" x2="-6.35" y2="1.27" width="0.1524" layer="1"/>
 <text x="-6.35" y="1.27" size="1.778" layer="25">&gt;NAME</text>
+<pad name="6" x="-5.1" y="-2.54" drill="0.7"/>
+<pad name="7" x="-2.56" y="-2.54" drill="0.7"/>
+<pad name="8" x="-0.02" y="-2.54" drill="0.7"/>
+<pad name="9" x="2.52" y="-2.54" drill="0.7"/>
+<pad name="10" x="5.06" y="-2.54" drill="0.7"/>
 </package>
 </packages>
 <symbols>
@@ -108,11 +113,11 @@
 <devices>
 <device name="" package="TSW-105-05-G-S">
 <connects>
-<connect gate="G$1" pin="VIN+" pad="1"/>
-<connect gate="G$1" pin="VIN-" pad="4"/>
-<connect gate="G$1" pin="VOUT+_3" pad="2"/>
-<connect gate="G$1" pin="VOUT+_5" pad="3"/>
-<connect gate="G$1" pin="VOUT-" pad="5"/>
+<connect gate="G$1" pin="VIN+" pad="1 6"/>
+<connect gate="G$1" pin="VIN-" pad="4 9"/>
+<connect gate="G$1" pin="VOUT+_3" pad="2 7"/>
+<connect gate="G$1" pin="VOUT+_5" pad="3 8"/>
+<connect gate="G$1" pin="VOUT-" pad="5 10"/>
 </connects>
 <technologies>
 <technology name=""/>
