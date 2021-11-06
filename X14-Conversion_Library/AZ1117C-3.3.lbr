@@ -101,8 +101,8 @@
 <circle x="-2.25" y="-2.5" radius="0.127" width="0" layer="21"/>
 <smd name="1" x="-1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
 <smd name="3" x="1.499" y="-1.981" dx="0.8" dy="1.4" layer="1"/>
-<smd name="2" x="0" y="-1.727" dx="0.8" dy="1.9" layer="1"/>
-<smd name="4" x="0" y="0.889" dx="2" dy="3.5" layer="1" roundness="75" cream="no"/>
+<smd name="2" x="0" y="-1.881" dx="0.8" dy="1.6" layer="1"/>
+<smd name="4" x="0" y="0.889" dx="2" dy="3.1" layer="1" roundness="75" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -117,7 +117,8 @@
 <text x="-2.032" y="-7.62" size="1.778" layer="95">GND</text>
 <text x="1.524" y="-0.508" size="1.778" layer="95">OUTPUT</text>
 <text x="-9.906" y="-0.508" size="1.778" layer="97">INPUT</text>
-<text x="-6.35" y="4.572" size="1.778" layer="95">AZ1117C-3.3</text>
+<text x="-6.35" y="7.112" size="1.778" layer="95">AZ1117C-3.3</text>
+<pin name="VOUT" x="17.272" y="4.064" visible="pin" length="middle" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -131,6 +132,7 @@
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="INPUT" pad="3"/>
 <connect gate="G$1" pin="OUTPUT" pad="2"/>
+<connect gate="G$1" pin="VOUT" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
