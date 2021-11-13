@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -74,9 +74,9 @@
 <library>
 <packages>
 <package name="IPBD-03-S-K">
-<pad name="P$1" x="-4.191" y="-3.7465" drill="1.778" diameter="2.54"/>
-<pad name="P$2" x="0" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
-<pad name="P$3" x="4.191" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
+<pad name="1" x="-4.191" y="-3.7465" drill="1.778" diameter="2.54"/>
+<pad name="2" x="0" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
+<pad name="3" x="4.191" y="-3.7465" drill="1.778" diameter="2.54" rot="R180"/>
 <wire x1="-6.95325" y1="0" x2="6.95325" y2="0" width="0.127" layer="21"/>
 <wire x1="6.95325" y1="0" x2="6.95325" y2="10.287" width="0.127" layer="21"/>
 <wire x1="6.95325" y1="10.287" x2="-6.95325" y2="10.287" width="0.127" layer="21"/>
@@ -107,9 +107,9 @@
 <devices>
 <device name="" package="IPBD-03-S-K">
 <connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-<connect gate="G$1" pin="3" pad="P$3"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
