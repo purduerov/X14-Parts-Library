@@ -1,10 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.6.2">
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
-<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -124,21 +122,6 @@
 </package>
 </packages>
 <symbols>
-<symbol name="PETC_NEW">
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
-<pin name="12V" x="-17.78" y="10.16" length="middle"/>
-<pin name="12_GND" x="-17.78" y="5.08" length="middle"/>
-<pin name="48V" x="-17.78" y="-2.54" length="middle"/>
-<pin name="48_GND" x="-17.78" y="-7.62" length="middle"/>
-<pin name="ALERT" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="CLK" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="C2" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="ON/OFF" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="DATA" x="17.78" y="10.16" length="middle" rot="R180"/>
-</symbol>
 <symbol name="PESC-02-12-02-01-X-VT-LC">
 <wire x1="-7.62" y1="20.32" x2="7.62" y2="20.32" width="0.254" layer="94"/>
 <wire x1="7.62" y1="20.32" x2="7.62" y2="-20.32" width="0.254" layer="94"/>
@@ -165,25 +148,38 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="CONN_BRICKS">
+<deviceset name="PESC-02-12-02-01-X-VT-LC" prefix="J">
+<description>16 (12 + 4 Power) Position Receptacle Connector Through Hole Gold  </description>
 <gates>
-<gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
+<gate name="G$1" symbol="PESC-02-12-02-01-X-VT-LC" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SAMTEC_PESC-02-12-02-01-X-VT-LC">
 <connects>
-<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
-<connect gate="G$1" pin="12_GND" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
-<connect gate="G$1" pin="48V" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8"/>
-<connect gate="G$1" pin="48_GND" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
-<connect gate="G$1" pin="ALERT" pad="01"/>
-<connect gate="G$1" pin="C2" pad="02"/>
-<connect gate="G$1" pin="CLK" pad="03"/>
-<connect gate="G$1" pin="DATA" pad="04"/>
-<connect gate="G$1" pin="ON/OFF" pad="05"/>
+<connect gate="G$1" pin="01" pad="01"/>
+<connect gate="G$1" pin="02" pad="02"/>
+<connect gate="G$1" pin="03" pad="03"/>
+<connect gate="G$1" pin="04" pad="04"/>
+<connect gate="G$1" pin="05" pad="05"/>
+<connect gate="G$1" pin="06" pad="06"/>
+<connect gate="G$1" pin="07" pad="07"/>
+<connect gate="G$1" pin="08" pad="08"/>
+<connect gate="G$1" pin="09" pad="09"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="P01" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
+<connect gate="G$1" pin="P02" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
+<connect gate="G$1" pin="P03" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8"/>
+<connect gate="G$1" pin="P04" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="17.04mm"/>
+<attribute name="MANUFACTURER" value="Samtec"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations"/>
+<attribute name="PARTREV" value="B"/>
+</technology>
 </technologies>
 </device>
 </devices>
