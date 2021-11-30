@@ -58,307 +58,209 @@
 </layers>
 <library>
 <packages>
-<package name="SAMTEC_PETC-02-40-01-X-VT_DTOB">
-<description>VERTICAL POWER SOCKET.</description>
-<text x="-34.8" y="10.8" size="1.27" layer="25">&gt;NAME</text>
-<text x="-34.8" y="9.3" size="1.27" layer="27">&gt;VALUE</text>
-<wire x1="-34.925" y1="8.8" x2="34.925" y2="8.8" width="0.1" layer="51"/>
-<wire x1="34.925" y1="8.8" x2="34.925" y2="-5.7" width="0.1" layer="51"/>
-<wire x1="-34.925" y1="-5.7" x2="-34.925" y2="8.8" width="0.1" layer="51"/>
-<wire x1="34.925" y1="-5.7" x2="-34.925" y2="-5.7" width="0.1" layer="51"/>
-<wire x1="-34.925" y1="8.8" x2="34.925" y2="8.8" width="0.2" layer="21"/>
-<wire x1="34.925" y1="8.8" x2="34.925" y2="-5.7" width="0.2" layer="21"/>
-<wire x1="34.925" y1="-5.7" x2="-34.925" y2="-5.7" width="0.2" layer="21"/>
-<wire x1="-34.925" y1="-5.7" x2="-34.925" y2="8.8" width="0.2" layer="21"/>
-<wire x1="-35.175" y1="9.05" x2="35.175" y2="9.05" width="0.05" layer="39"/>
-<wire x1="35.175" y1="9.05" x2="35.175" y2="-5.95" width="0.05" layer="39"/>
-<wire x1="35.175" y1="-5.95" x2="-35.175" y2="-5.95" width="0.05" layer="39"/>
-<wire x1="-35.175" y1="-5.95" x2="-35.175" y2="9.05" width="0.05" layer="39"/>
-<circle x="-11.43" y="-6.37" radius="0.1" width="0.2" layer="51"/>
-<circle x="-11.43" y="-6.37" radius="0.1" width="0.2" layer="21"/>
-<pad name="P01_3" x="-24.765" y="0" drill="1.32"/>
-<pad name="P01_2" x="-24.765" y="2.54" drill="1.32"/>
-<pad name="P01_1" x="-24.765" y="5.08" drill="1.32"/>
-<pad name="P01_4" x="-24.765" y="-2.54" drill="1.32"/>
-<pad name="P01_7" x="-22.225" y="0" drill="1.32"/>
-<pad name="P01_6" x="-22.225" y="2.54" drill="1.32"/>
-<pad name="P01_5" x="-22.225" y="5.08" drill="1.32"/>
-<pad name="P01_8" x="-22.225" y="-2.54" drill="1.32"/>
-<pad name="P02_3" x="-18.415" y="0" drill="1.32"/>
-<pad name="P02_2" x="-18.415" y="2.54" drill="1.32"/>
-<pad name="P02_1" x="-18.415" y="5.08" drill="1.32"/>
-<pad name="P02_4" x="-18.415" y="-2.54" drill="1.32"/>
-<pad name="P02_7" x="-15.875" y="0" drill="1.32"/>
-<pad name="P02_6" x="-15.875" y="2.54" drill="1.32"/>
-<pad name="P02_5" x="-15.875" y="5.08" drill="1.32"/>
-<pad name="P02_8" x="-15.875" y="-2.54" drill="1.32"/>
-<pad name="S18" x="-1.27" y="0" drill="1.02"/>
-<pad name="S22" x="1.27" y="0" drill="1.02"/>
-<pad name="S14" x="-3.81" y="0" drill="1.02"/>
-<pad name="S10" x="-6.35" y="0" drill="1.02"/>
-<pad name="S06" x="-8.89" y="0" drill="1.02"/>
-<pad name="S02" x="-11.43" y="0" drill="1.02"/>
-<pad name="S26" x="3.81" y="0" drill="1.02"/>
-<pad name="S30" x="6.35" y="0" drill="1.02"/>
-<pad name="S34" x="8.89" y="0" drill="1.02"/>
-<pad name="S38" x="11.43" y="0" drill="1.02"/>
-<pad name="S17" x="-1.27" y="-2.54" drill="1.02"/>
-<pad name="S21" x="1.27" y="-2.54" drill="1.02"/>
-<pad name="S13" x="-3.81" y="-2.54" drill="1.02"/>
-<pad name="S09" x="-6.35" y="-2.54" drill="1.02"/>
-<pad name="S05" x="-8.89" y="-2.54" drill="1.02"/>
-<pad name="S01" x="-11.43" y="-2.54" drill="1.02" shape="square"/>
-<pad name="S25" x="3.81" y="-2.54" drill="1.02"/>
-<pad name="S29" x="6.35" y="-2.54" drill="1.02"/>
-<pad name="S33" x="8.89" y="-2.54" drill="1.02"/>
-<pad name="S37" x="11.43" y="-2.54" drill="1.02"/>
-<pad name="S20" x="-1.27" y="5.08" drill="1.02"/>
-<pad name="S24" x="1.27" y="5.08" drill="1.02"/>
-<pad name="S16" x="-3.81" y="5.08" drill="1.02"/>
-<pad name="S12" x="-6.35" y="5.08" drill="1.02"/>
-<pad name="S08" x="-8.89" y="5.08" drill="1.02"/>
-<pad name="S04" x="-11.43" y="5.08" drill="1.02"/>
-<pad name="S28" x="3.81" y="5.08" drill="1.02"/>
-<pad name="S32" x="6.35" y="5.08" drill="1.02"/>
-<pad name="S36" x="8.89" y="5.08" drill="1.02"/>
-<pad name="S40" x="11.43" y="5.08" drill="1.02"/>
-<pad name="S19" x="-1.27" y="2.54" drill="1.02"/>
-<pad name="S23" x="1.27" y="2.54" drill="1.02"/>
-<pad name="S15" x="-3.81" y="2.54" drill="1.02"/>
-<pad name="S11" x="-6.35" y="2.54" drill="1.02"/>
-<pad name="S07" x="-8.89" y="2.54" drill="1.02"/>
-<pad name="S03" x="-11.43" y="2.54" drill="1.02"/>
-<pad name="S27" x="3.81" y="2.54" drill="1.02"/>
-<pad name="S31" x="6.35" y="2.54" drill="1.02"/>
-<pad name="S35" x="8.89" y="2.54" drill="1.02"/>
-<pad name="S39" x="11.43" y="2.54" drill="1.02"/>
-<pad name="P03_3" x="15.875" y="0" drill="1.32"/>
-<pad name="P03_2" x="15.875" y="2.54" drill="1.32"/>
-<pad name="P03_1" x="15.875" y="5.08" drill="1.32"/>
-<pad name="P03_4" x="15.875" y="-2.54" drill="1.32"/>
-<pad name="P03_7" x="18.415" y="0" drill="1.32"/>
-<pad name="P03_6" x="18.415" y="2.54" drill="1.32"/>
-<pad name="P03_5" x="18.415" y="5.08" drill="1.32"/>
-<pad name="P03_8" x="18.415" y="-2.54" drill="1.32"/>
-<pad name="P04_3" x="22.225" y="0" drill="1.32"/>
-<pad name="P04_2" x="22.225" y="2.54" drill="1.32"/>
-<pad name="P04_1" x="22.225" y="5.08" drill="1.32"/>
-<pad name="P04_4" x="22.225" y="-2.54" drill="1.32"/>
-<pad name="P04_7" x="24.765" y="0" drill="1.32"/>
-<pad name="P04_6" x="24.765" y="2.54" drill="1.32"/>
-<pad name="P04_5" x="24.765" y="5.08" drill="1.32"/>
-<pad name="P04_8" x="24.765" y="-2.54" drill="1.32"/>
+<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(B-D)">
+<text x="-25.85" y="8.97" size="1.27" layer="25">&gt;NAME</text>
+<text x="-25.85" y="-4.03" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.1" layer="51"/>
+<wire x1="26.035" y1="8.5" x2="26.035" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-26.035" y1="-3.5" x2="-26.035" y2="8.5" width="0.1" layer="51"/>
+<wire x1="26.035" y1="-3.5" x2="-26.035" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.2" layer="21"/>
+<wire x1="26.035" y1="8.5" x2="26.035" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="26.035" y1="-3.5" x2="-26.035" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="-26.035" y1="-3.5" x2="-26.035" y2="8.5" width="0.2" layer="21"/>
+<wire x1="-26.285" y1="8.75" x2="26.285" y2="8.75" width="0.05" layer="39"/>
+<wire x1="26.285" y1="8.75" x2="26.285" y2="-3.75" width="0.05" layer="39"/>
+<wire x1="26.285" y1="-3.75" x2="-26.285" y2="-3.75" width="0.05" layer="39"/>
+<wire x1="-26.285" y1="-3.75" x2="-26.285" y2="8.75" width="0.05" layer="39"/>
+<circle x="2.54" y="-4.08" radius="0.1" width="0.2" layer="51"/>
+<circle x="2.54" y="-4.08" radius="0.1" width="0.2" layer="21"/>
+<pad name="01" x="2.54" y="-1.59" drill="1.02" shape="square"/>
+<pad name="02" x="2.54" y="0.95" drill="1.02"/>
+<pad name="03" x="2.54" y="3.49" drill="1.02"/>
+<pad name="04" x="2.54" y="6.03" drill="1.02"/>
+<pad name="05" x="0" y="-1.59" drill="1.02"/>
+<pad name="06" x="0" y="0.95" drill="1.02"/>
+<pad name="07" x="0" y="3.49" drill="1.02"/>
+<pad name="08" x="0" y="6.03" drill="1.02"/>
+<pad name="09" x="-2.54" y="-1.59" drill="1.02"/>
+<pad name="10" x="-2.54" y="0.95" drill="1.02"/>
+<pad name="11" x="-2.54" y="3.49" drill="1.02"/>
+<pad name="12" x="-2.54" y="6.03" drill="1.02"/>
+<hole x="-22.225" y="0" drill="2.49"/>
+<hole x="22.225" y="0" drill="2.49"/>
+<pad name="P02_5" x="6.985" y="-1.59" drill="1.32"/>
+<pad name="P02_6" x="6.985" y="0.95" drill="1.32"/>
+<pad name="P02_7" x="6.985" y="3.49" drill="1.32"/>
+<pad name="P02_8" x="6.985" y="6.03" drill="1.32"/>
+<pad name="P02_1" x="9.525" y="-1.59" drill="1.32"/>
+<pad name="P02_2" x="9.525" y="0.95" drill="1.32"/>
+<pad name="P02_3" x="9.525" y="3.49" drill="1.32"/>
+<pad name="P02_4" x="9.525" y="6.03" drill="1.32"/>
+<pad name="P01_5" x="13.335" y="-1.59" drill="1.32"/>
+<pad name="P01_6" x="13.335" y="0.95" drill="1.32"/>
+<pad name="P01_7" x="13.335" y="3.49" drill="1.32"/>
+<pad name="P01_8" x="13.335" y="6.03" drill="1.32"/>
+<pad name="P01_1" x="15.875" y="-1.59" drill="1.32"/>
+<pad name="P01_2" x="15.875" y="0.95" drill="1.32"/>
+<pad name="P01_3" x="15.875" y="3.49" drill="1.32"/>
+<pad name="P01_4" x="15.875" y="6.03" drill="1.32"/>
+<pad name="P03_1" x="-6.985" y="-1.59" drill="1.32"/>
+<pad name="P03_2" x="-6.985" y="0.95" drill="1.32"/>
+<pad name="P03_3" x="-6.985" y="3.49" drill="1.32"/>
+<pad name="P03_4" x="-6.985" y="6.03" drill="1.32"/>
+<pad name="P03_5" x="-9.525" y="-1.59" drill="1.32"/>
+<pad name="P03_6" x="-9.525" y="0.95" drill="1.32"/>
+<pad name="P03_7" x="-9.525" y="3.49" drill="1.32"/>
+<pad name="P03_8" x="-9.525" y="6.03" drill="1.32"/>
+<pad name="P04_1" x="-13.335" y="-1.59" drill="1.32"/>
+<pad name="P04_2" x="-13.335" y="0.95" drill="1.32"/>
+<pad name="P04_3" x="-13.335" y="3.49" drill="1.32"/>
+<pad name="P04_4" x="-13.335" y="6.03" drill="1.32"/>
+<pad name="P04_5" x="-15.875" y="-1.59" drill="1.32"/>
+<pad name="P04_6" x="-15.875" y="0.95" drill="1.32"/>
+<pad name="P04_7" x="-15.875" y="3.49" drill="1.32"/>
+<pad name="P04_8" x="-15.875" y="6.03" drill="1.32"/>
 </package>
-<package name="SAMTEC_PETC-02-40-01-X-VT_BTOD">
-<text x="-21.03" y="-1.89" size="1.27" layer="25">&gt;NAME</text>
-<text x="-21.03" y="-15.39" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="-20.955" y1="-2.61" x2="48.895" y2="-2.61" width="0.1" layer="51"/>
-<wire x1="48.895" y1="-2.61" x2="48.895" y2="-14.61" width="0.1" layer="51"/>
-<wire x1="-20.955" y1="-14.61" x2="-20.955" y2="-2.61" width="0.1" layer="51"/>
-<wire x1="48.895" y1="-14.61" x2="-20.955" y2="-14.61" width="0.1" layer="51"/>
-<wire x1="-20.955" y1="-2.61" x2="48.895" y2="-2.61" width="0.2" layer="21"/>
-<wire x1="48.895" y1="-2.61" x2="48.895" y2="-14.61" width="0.2" layer="21"/>
-<wire x1="48.895" y1="-14.61" x2="-20.955" y2="-14.61" width="0.2" layer="21"/>
-<wire x1="-20.955" y1="-14.61" x2="-20.955" y2="-2.61" width="0.2" layer="21"/>
-<wire x1="-21.205" y1="-2.36" x2="49.145" y2="-2.36" width="0.05" layer="39"/>
-<wire x1="49.145" y1="-2.36" x2="49.145" y2="-14.86" width="0.05" layer="39"/>
-<wire x1="49.145" y1="-14.86" x2="-21.205" y2="-14.86" width="0.05" layer="39"/>
-<wire x1="-21.205" y1="-14.86" x2="-21.205" y2="-2.36" width="0.05" layer="39"/>
-<circle x="25.4" y="-15.19" radius="0.1" width="0.2" layer="51"/>
-<circle x="25.4" y="-15.19" radius="0.1" width="0.2" layer="21"/>
-<pad name="P01_8" x="36.195" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P01_7" x="36.195" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P01_6" x="36.195" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P01_5" x="36.195" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P01_4" x="38.735" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P01_3" x="38.735" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P01_2" x="38.735" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P01_1" x="38.735" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P02_4" x="32.385" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P02_3" x="32.385" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P02_2" x="32.385" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P02_1" x="32.385" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P02_8" x="29.845" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P02_7" x="29.845" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P02_6" x="29.845" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P02_5" x="29.845" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="01" x="25.4" y="-12.7" drill="1.02" diameter="1.52" shape="square"/>
-<pad name="02" x="25.4" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="03" x="25.4" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="04" x="25.4" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="05" x="22.86" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="06" x="22.86" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="07" x="22.86" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="08" x="22.86" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="09" x="20.32" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="10" x="20.32" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="11" x="20.32" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="12" x="20.32" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="P03_4" x="-1.905" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P03_3" x="-1.905" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P03_2" x="-1.905" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P03_1" x="-1.905" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P03_8" x="-4.445" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P03_7" x="-4.445" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P03_6" x="-4.445" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P03_5" x="-4.445" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P04_4" x="-8.255" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P04_3" x="-8.255" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P04_2" x="-8.255" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P04_1" x="-8.255" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="P04_8" x="-10.795" y="-12.7" drill="1.32" diameter="1.98"/>
-<pad name="P04_7" x="-10.795" y="-10.16" drill="1.32" diameter="1.98"/>
-<pad name="P04_6" x="-10.795" y="-7.62" drill="1.32" diameter="1.98"/>
-<pad name="P04_5" x="-10.795" y="-5.08" drill="1.32" diameter="1.98"/>
-<pad name="13" x="17.78" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="14" x="17.78" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="15" x="17.78" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="16" x="17.78" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="17" x="15.24" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="18" x="15.24" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="19" x="15.24" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="20" x="15.24" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="21" x="12.7" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="22" x="12.7" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="23" x="12.7" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="24" x="12.7" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="25" x="10.16" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="26" x="10.16" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="27" x="10.16" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="28" x="10.16" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="29" x="7.62" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="30" x="7.62" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="31" x="7.62" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="32" x="7.62" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="33" x="5.08" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="34" x="5.08" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="35" x="5.08" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="36" x="5.08" y="-5.08" drill="1.02" diameter="1.52"/>
-<pad name="37" x="2.54" y="-12.7" drill="1.02" diameter="1.52"/>
-<pad name="38" x="2.54" y="-10.16" drill="1.02" diameter="1.52"/>
-<pad name="39" x="2.54" y="-7.62" drill="1.02" diameter="1.52"/>
-<pad name="40" x="2.54" y="-5.08" drill="1.02" diameter="1.52"/>
+<package name="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)">
+<text x="-25.85" y="8.97" size="1.27" layer="25">&gt;NAME</text>
+<text x="-25.85" y="-4.03" size="1.27" layer="27" align="top-left">&gt;VALUE</text>
+<wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.1" layer="51"/>
+<wire x1="26.035" y1="8.5" x2="26.035" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-26.035" y1="-3.5" x2="-26.035" y2="8.5" width="0.1" layer="51"/>
+<wire x1="26.035" y1="-3.5" x2="-26.035" y2="-3.5" width="0.1" layer="51"/>
+<wire x1="-26.035" y1="8.5" x2="26.035" y2="8.5" width="0.2" layer="21"/>
+<wire x1="26.035" y1="8.5" x2="26.035" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="26.035" y1="-3.5" x2="-26.035" y2="-3.5" width="0.2" layer="21"/>
+<wire x1="-26.035" y1="-3.5" x2="-26.035" y2="8.5" width="0.2" layer="21"/>
+<wire x1="-26.285" y1="8.75" x2="26.285" y2="8.75" width="0.05" layer="39"/>
+<wire x1="26.285" y1="8.75" x2="26.285" y2="-3.75" width="0.05" layer="39"/>
+<wire x1="26.285" y1="-3.75" x2="-26.285" y2="-3.75" width="0.05" layer="39"/>
+<wire x1="-26.285" y1="-3.75" x2="-26.285" y2="8.75" width="0.05" layer="39"/>
+<circle x="2.54" y="-4.08" radius="0.1" width="0.2" layer="51"/>
+<circle x="2.54" y="-4.08" radius="0.1" width="0.2" layer="21"/>
+<pad name="04" x="2.54" y="-1.59" drill="1.02"/>
+<pad name="03" x="2.54" y="0.95" drill="1.02"/>
+<pad name="02" x="2.54" y="3.49" drill="1.02"/>
+<pad name="01" x="2.54" y="6.03" drill="1.02" shape="square"/>
+<pad name="08" x="0" y="-1.59" drill="1.02"/>
+<pad name="07" x="0" y="0.95" drill="1.02"/>
+<pad name="06" x="0" y="3.49" drill="1.02"/>
+<pad name="05" x="0" y="6.03" drill="1.02"/>
+<pad name="12" x="-2.54" y="-1.59" drill="1.02"/>
+<pad name="11" x="-2.54" y="0.95" drill="1.02"/>
+<pad name="10" x="-2.54" y="3.49" drill="1.02"/>
+<pad name="09" x="-2.54" y="6.03" drill="1.02"/>
+<hole x="-22.225" y="0" drill="2.49"/>
+<hole x="22.225" y="0" drill="2.49"/>
+<pad name="P02_5" x="6.985" y="-1.59" drill="1.32"/>
+<pad name="P02_6" x="6.985" y="0.95" drill="1.32"/>
+<pad name="P02_7" x="6.985" y="3.49" drill="1.32"/>
+<pad name="P02_8" x="6.985" y="6.03" drill="1.32"/>
+<pad name="P02_1" x="9.525" y="-1.59" drill="1.32"/>
+<pad name="P02_2" x="9.525" y="0.95" drill="1.32"/>
+<pad name="P02_3" x="9.525" y="3.49" drill="1.32"/>
+<pad name="P02_4" x="9.525" y="6.03" drill="1.32"/>
+<pad name="P01_5" x="13.335" y="-1.59" drill="1.32"/>
+<pad name="P01_6" x="13.335" y="0.95" drill="1.32"/>
+<pad name="P01_7" x="13.335" y="3.49" drill="1.32"/>
+<pad name="P01_8" x="13.335" y="6.03" drill="1.32"/>
+<pad name="P01_1" x="15.875" y="-1.59" drill="1.32"/>
+<pad name="P01_2" x="15.875" y="0.95" drill="1.32"/>
+<pad name="P01_3" x="15.875" y="3.49" drill="1.32"/>
+<pad name="P01_4" x="15.875" y="6.03" drill="1.32"/>
+<pad name="P03_1" x="-6.985" y="-1.59" drill="1.32"/>
+<pad name="P03_2" x="-6.985" y="0.95" drill="1.32"/>
+<pad name="P03_3" x="-6.985" y="3.49" drill="1.32"/>
+<pad name="P03_4" x="-6.985" y="6.03" drill="1.32"/>
+<pad name="P03_5" x="-9.525" y="-1.59" drill="1.32"/>
+<pad name="P03_6" x="-9.525" y="0.95" drill="1.32"/>
+<pad name="P03_7" x="-9.525" y="3.49" drill="1.32"/>
+<pad name="P03_8" x="-9.525" y="6.03" drill="1.32"/>
+<pad name="P04_1" x="-13.335" y="-1.59" drill="1.32"/>
+<pad name="P04_2" x="-13.335" y="0.95" drill="1.32"/>
+<pad name="P04_3" x="-13.335" y="3.49" drill="1.32"/>
+<pad name="P04_4" x="-13.335" y="6.03" drill="1.32"/>
+<pad name="P04_5" x="-15.875" y="-1.59" drill="1.32"/>
+<pad name="P04_6" x="-15.875" y="0.95" drill="1.32"/>
+<pad name="P04_7" x="-15.875" y="3.49" drill="1.32"/>
+<pad name="P04_8" x="-15.875" y="6.03" drill="1.32"/>
 </package>
 </packages>
 <symbols>
-<symbol name="PETC-02-40-02-01-X-VT">
-<wire x1="-10.16" y1="30.48" x2="10.16" y2="30.48" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="30.48" x2="10.16" y2="-33.02" width="0.1524" layer="94"/>
-<wire x1="10.16" y1="-33.02" x2="-10.16" y2="-33.02" width="0.1524" layer="94"/>
-<wire x1="-10.16" y1="-33.02" x2="-10.16" y2="30.48" width="0.1524" layer="94"/>
-<text x="-10.16" y="31.242" size="1.778" layer="95">&gt;NAME</text>
-<text x="-10.16" y="-35.56" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="SIG01" x="-15.24" y="22.86" length="middle"/>
-<pin name="SIG02" x="15.24" y="22.86" length="middle" rot="R180"/>
-<pin name="PWR01" x="-15.24" y="27.94" length="middle" direction="pwr"/>
-<pin name="PWR02" x="15.24" y="27.94" length="middle" direction="pwr" rot="R180"/>
-<pin name="PWR03" x="-15.24" y="-30.48" length="middle" direction="pwr"/>
-<pin name="PWR04" x="15.24" y="-30.48" length="middle" direction="pwr" rot="R180"/>
-<pin name="SIG03" x="-15.24" y="20.32" length="middle"/>
-<pin name="SIG04" x="15.24" y="20.32" length="middle" rot="R180"/>
-<pin name="SIG05" x="-15.24" y="17.78" length="middle"/>
-<pin name="SIG06" x="15.24" y="17.78" length="middle" rot="R180"/>
-<pin name="SIG07" x="-15.24" y="15.24" length="middle"/>
-<pin name="SIG08" x="15.24" y="15.24" length="middle" rot="R180"/>
-<pin name="SIG09" x="-15.24" y="12.7" length="middle"/>
-<pin name="SIG10" x="15.24" y="12.7" length="middle" rot="R180"/>
-<pin name="SIG11" x="-15.24" y="10.16" length="middle"/>
-<pin name="SIG12" x="15.24" y="10.16" length="middle" rot="R180"/>
-<pin name="SIG13" x="-15.24" y="7.62" length="middle"/>
-<pin name="SIG14" x="15.24" y="7.62" length="middle" rot="R180"/>
-<pin name="SIG15" x="-15.24" y="5.08" length="middle"/>
-<pin name="SIG16" x="15.24" y="5.08" length="middle" rot="R180"/>
-<pin name="SIG17" x="-15.24" y="2.54" length="middle"/>
-<pin name="SIG18" x="15.24" y="2.54" length="middle" rot="R180"/>
-<pin name="SIG19" x="-15.24" y="0" length="middle"/>
-<pin name="SIG20" x="15.24" y="0" length="middle" rot="R180"/>
-<pin name="SIG21" x="-15.24" y="-2.54" length="middle"/>
-<pin name="SIG22" x="15.24" y="-2.54" length="middle" rot="R180"/>
-<pin name="SIG23" x="-15.24" y="-5.08" length="middle"/>
-<pin name="SIG24" x="15.24" y="-5.08" length="middle" rot="R180"/>
-<pin name="SIG25" x="-15.24" y="-7.62" length="middle"/>
-<pin name="SIG26" x="15.24" y="-7.62" length="middle" rot="R180"/>
-<pin name="SIG27" x="-15.24" y="-10.16" length="middle"/>
-<pin name="SIG28" x="15.24" y="-10.16" length="middle" rot="R180"/>
-<pin name="SIG29" x="-15.24" y="-12.7" length="middle"/>
-<pin name="SIG30" x="15.24" y="-12.7" length="middle" rot="R180"/>
-<pin name="SIG31" x="-15.24" y="-15.24" length="middle"/>
-<pin name="SIG32" x="15.24" y="-15.24" length="middle" rot="R180"/>
-<pin name="SIG33" x="-15.24" y="-17.78" length="middle"/>
-<pin name="SIG34" x="15.24" y="-17.78" length="middle" rot="R180"/>
-<pin name="SIG35" x="-15.24" y="-20.32" length="middle"/>
-<pin name="SIG36" x="15.24" y="-20.32" length="middle" rot="R180"/>
-<pin name="SIG37" x="-15.24" y="-22.86" length="middle"/>
-<pin name="SIG38" x="15.24" y="-22.86" length="middle" rot="R180"/>
-<pin name="SIG39" x="-15.24" y="-25.4" length="middle"/>
-<pin name="SIG40" x="15.24" y="-25.4" length="middle" rot="R180"/>
-</symbol>
-<symbol name="PETC_NEW">
-<wire x1="-12.7" y1="12.7" x2="-12.7" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="12.7" y2="12.7" width="0.1524" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-12.7" y2="12.7" width="0.1524" layer="94"/>
-<pin name="12V" x="-17.78" y="10.16" length="middle"/>
-<pin name="12VGND" x="-17.78" y="5.08" length="middle"/>
-<pin name="48V" x="-17.78" y="-2.54" length="middle"/>
-<pin name="48VGND" x="-17.78" y="-7.62" length="middle"/>
-<pin name="ALERT" x="17.78" y="5.08" length="middle" rot="R180"/>
-<pin name="CLK" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="C2" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="ON/OFF" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="DATA" x="17.78" y="10.16" length="middle" rot="R180"/>
-<text x="-12.7" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<symbol name="PESC-02-12-02-01-X-VT-LC">
+<wire x1="-12.7" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="-12.7" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-15.24" x2="15.24" y2="-15.24" width="0.254" layer="94"/>
+<text x="-12.7" y="15.748" size="1.778" layer="95">&gt;NAME</text>
+<text x="-12.7" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DATA" x="20.32" y="10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="12V" x="-17.78" y="12.7" length="middle" direction="pwr"/>
+<pin name="ALERT" x="20.32" y="5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="12V_GND" x="-17.78" y="7.62" length="middle" direction="pwr"/>
+<pin name="CLK" x="20.32" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="C2" x="20.32" y="-5.08" length="middle" direction="pas" rot="R180"/>
+<pin name="ON/OFF" x="20.32" y="-10.16" length="middle" direction="pas" rot="R180"/>
+<pin name="48V" x="-17.78" y="-5.08" length="middle" direction="pwr"/>
+<pin name="48V_GND" x="-17.78" y="-10.16" length="middle" direction="pwr"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="PETC-02-40-02-01-X-VT(DTOB)" prefix="J">
-<description>CONN HEADER VERT 44 POS  </description>
+<deviceset name="PESC-02-12-02-01-X-VT-LC(BRICKS-DISTRIBUTION)" prefix="J">
+<description>16 (12 + 4 Power) Position Receptacle Connector Through Hole Gold  </description>
 <gates>
-<gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
+<gate name="G$1" symbol="PESC-02-12-02-01-X-VT-LC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SAMTEC_PETC-02-40-01-X-VT_DTOB">
+<device name="" package="SAMTEC_PESC-02-12-02-01-X-VT-LC(B-D)">
 <connects>
-<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8 P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
-<connect gate="G$1" pin="12VGND" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8 P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
-<connect gate="G$1" pin="48V" pad="S01 S02 S03 S04 S05 S06 S07 S08 S09 S10 S11 S12"/>
-<connect gate="G$1" pin="48VGND" pad="S29 S30 S31 S32 S33 S34 S35 S36 S37 S38 S39 S40"/>
-<connect gate="G$1" pin="ALERT" pad="S17"/>
-<connect gate="G$1" pin="C2" pad="S18"/>
-<connect gate="G$1" pin="CLK" pad="S19"/>
-<connect gate="G$1" pin="DATA" pad="S20"/>
-<connect gate="G$1" pin="ON/OFF" pad="S21"/>
+<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
+<connect gate="G$1" pin="12V_GND" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
+<connect gate="G$1" pin="48V" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8"/>
+<connect gate="G$1" pin="48V_GND" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
+<connect gate="G$1" pin="ALERT" pad="02"/>
+<connect gate="G$1" pin="C2" pad="04"/>
+<connect gate="G$1" pin="CLK" pad="03"/>
+<connect gate="G$1" pin="DATA" pad="01"/>
+<connect gate="G$1" pin="ON/OFF" pad="05"/>
 </connects>
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Samtec"/>
-<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="14.62 mm"/>
-<attribute name="PARTREV" value="D"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="17.04mm"/>
+<attribute name="PARTREV" value="B"/>
 <attribute name="STANDARD" value="Manufacturer Recommendations"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
-<deviceset name="PETC-02-40-01-X-VT(BTOD)">
+<deviceset name="PESC-02-12-02-01-X-VT-LC(DISTRIBUTION-BRICKS)" prefix="J">
+<description>16 (12 + 4 Power) Position Receptacle Connector Through Hole Gold  </description>
 <gates>
-<gate name="G$1" symbol="PETC_NEW" x="0" y="0"/>
+<gate name="G$1" symbol="PESC-02-12-02-01-X-VT-LC" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SAMTEC_PETC-02-40-01-X-VT_BTOD">
+<device name="" package="SAMTEC_PESC-02-12-02-01-X-VT-LC(D-B)">
 <connects>
-<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8 P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
-<connect gate="G$1" pin="12VGND" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8 P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
-<connect gate="G$1" pin="48V" pad="29 30 31 32 33 34 35 36 37 38 39 40"/>
-<connect gate="G$1" pin="48VGND" pad="01 02 03 04 05 06 07 08 09 10 11 12"/>
-<connect gate="G$1" pin="ALERT" pad="17"/>
-<connect gate="G$1" pin="C2" pad="18"/>
-<connect gate="G$1" pin="CLK" pad="19"/>
-<connect gate="G$1" pin="DATA" pad="20"/>
-<connect gate="G$1" pin="ON/OFF" pad="21"/>
+<connect gate="G$1" pin="12V" pad="P01_1 P01_2 P01_3 P01_4 P01_5 P01_6 P01_7 P01_8"/>
+<connect gate="G$1" pin="12V_GND" pad="P02_1 P02_2 P02_3 P02_4 P02_5 P02_6 P02_7 P02_8"/>
+<connect gate="G$1" pin="48V" pad="P03_1 P03_2 P03_3 P03_4 P03_5 P03_6 P03_7 P03_8"/>
+<connect gate="G$1" pin="48V_GND" pad="P04_1 P04_2 P04_3 P04_4 P04_5 P04_6 P04_7 P04_8"/>
+<connect gate="G$1" pin="ALERT" pad="02"/>
+<connect gate="G$1" pin="C2" pad="04"/>
+<connect gate="G$1" pin="CLK" pad="03"/>
+<connect gate="G$1" pin="DATA" pad="01"/>
+<connect gate="G$1" pin="ON/OFF" pad="05"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MANUFACTURER" value="Samtec"/>
+<attribute name="MAXIMUM_PACKAGE_HEIGHT" value="17.04mm"/>
+<attribute name="PARTREV" value="B"/>
+<attribute name="STANDARD" value="Manufacturer Recommendations"/>
+</technology>
 </technologies>
 </device>
 </devices>

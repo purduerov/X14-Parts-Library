@@ -9,7 +9,7 @@
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
@@ -73,45 +73,64 @@
 </layers>
 <library>
 <packages>
-<package name="DIODE-DO-214AC(SK34ATR)">
-<smd name="1" x="-2.3" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
-<smd name="2" x="2.2" y="0" dx="1.8" dy="2.1" layer="1" rot="R90"/>
-<text x="-4.1656" y="1.6002" size="1.778" layer="25">&gt;NAME</text>
-<text x="-4.1402" y="-3.302" size="1.778" layer="27">&gt;VALUE</text>
-<wire x1="-3.4036" y1="1.4224" x2="-3.4036" y2="-1.4224" width="0.1524" layer="21"/>
-<wire x1="-3.3782" y1="-1.4478" x2="3.302" y2="-1.4478" width="0.1524" layer="21"/>
-<wire x1="3.302" y1="1.4478" x2="3.302" y2="-1.4224" width="0.1524" layer="21"/>
-<wire x1="-3.3782" y1="1.4478" x2="3.302" y2="1.4478" width="0.1524" layer="21"/>
-<wire x1="3.6068" y1="1.4732" x2="3.6068" y2="-1.4478" width="0.1524" layer="21"/>
-<wire x1="3.8608" y1="1.4732" x2="3.8608" y2="-1.4478" width="0.1524" layer="21"/>
+<package name="PCAP_SVP_C6_PAN">
+<smd name="1" x="-2.7559" y="0" dx="2.9972" dy="1.2192" layer="1"/>
+<smd name="2" x="2.7559" y="0" dx="2.9972" dy="1.2192" layer="1"/>
+<wire x1="-4.9911" y1="0" x2="-5.7531" y2="0" width="0.1524" layer="21"/>
+<wire x1="-5.3721" y1="0.381" x2="-5.3721" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="-3.5306" y1="-3.5306" x2="3.5306" y2="-3.5306" width="0.1524" layer="21"/>
+<wire x1="3.5306" y1="-3.5306" x2="3.5306" y2="-0.9423" width="0.1524" layer="21"/>
+<wire x1="3.5306" y1="3.5306" x2="-3.5306" y2="3.5306" width="0.1524" layer="21"/>
+<wire x1="-3.5306" y1="3.5306" x2="-3.5306" y2="0.9423" width="0.1524" layer="21"/>
+<wire x1="-3.5306" y1="-0.9423" x2="-3.5306" y2="-3.5306" width="0.1524" layer="21"/>
+<wire x1="3.5306" y1="0.9423" x2="3.5306" y2="3.5306" width="0.1524" layer="21"/>
+<wire x1="-4.9911" y1="0" x2="-5.7531" y2="0" width="0.1524" layer="51"/>
+<wire x1="-5.3721" y1="0.381" x2="-5.3721" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-3.4036" y1="1.7018" x2="-1.7018" y2="3.4036" width="0.1524" layer="51"/>
+<wire x1="-3.4036" y1="-1.7018" x2="-1.7018" y2="-3.4036" width="0.1524" layer="51"/>
+<wire x1="-3.4036" y1="-3.4036" x2="3.4036" y2="-3.4036" width="0.1524" layer="51"/>
+<wire x1="3.4036" y1="-3.4036" x2="3.4036" y2="3.4036" width="0.1524" layer="51"/>
+<wire x1="3.4036" y1="3.4036" x2="-3.4036" y2="3.4036" width="0.1524" layer="51"/>
+<wire x1="-3.4036" y1="3.4036" x2="-3.4036" y2="-3.4036" width="0.1524" layer="51"/>
+<wire x1="-4.064" y1="4.064" x2="-4.064" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="-4.064" y1="1.143" x2="-4.699" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="-4.699" y1="1.143" x2="-4.699" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="-4.699" y1="-1.143" x2="-4.064" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="-4.064" y1="-1.143" x2="-4.064" y2="-4.064" width="0.1524" layer="39"/>
+<wire x1="-4.064" y1="-4.064" x2="4.064" y2="-4.064" width="0.1524" layer="39"/>
+<wire x1="4.064" y1="-4.064" x2="4.064" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="4.064" y1="-1.143" x2="4.699" y2="-1.143" width="0.1524" layer="39"/>
+<wire x1="4.699" y1="-1.143" x2="4.699" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="4.699" y1="1.143" x2="4.064" y2="1.143" width="0.1524" layer="39"/>
+<wire x1="4.064" y1="1.143" x2="4.064" y2="4.064" width="0.1524" layer="39"/>
+<wire x1="4.064" y1="4.064" x2="-4.064" y2="4.064" width="0.1524" layer="39"/>
+<text x="-1.27" y="5.08" size="1.27" layer="25">CIN</text>
 </package>
 </packages>
 <symbols>
-<symbol name="DIODE-DO-214AC(SK34ATR)">
-<pin name="1" x="-6.35" y="0" length="middle"/>
-<pin name="2" x="7.366" y="0" length="middle" rot="R180"/>
-<polygon width="0.1524" layer="94">
-<vertex x="-1.27" y="2.54"/>
-<vertex x="-1.27" y="-2.54"/>
-<vertex x="2.286" y="0"/>
-</polygon>
-<wire x1="3.556" y1="2.54" x2="2.286" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="2.54" x2="2.286" y2="-2.794" width="0.1524" layer="94"/>
-<wire x1="2.286" y1="-2.794" x2="1.27" y2="-2.794" width="0.1524" layer="94"/>
-<text x="-3.556" y="2.286" size="1.778" layer="95">&gt;NAME</text>
-<text x="-4.064" y="-4.572" size="1.778" layer="96">&gt;VALUE</text>
+<symbol name="PCAP_SVP_C6_PAN">
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas"/>
+<wire x1="2.2098" y1="0.635" x2="2.2098" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="4.1148" y1="0" x2="5.08" y2="0" width="0.2032" layer="94"/>
+<wire x1="3.4798" y1="-1.905" x2="3.4798" y2="1.905" width="0.2032" layer="94"/>
+<wire x1="1.5748" y1="1.27" x2="2.8448" y2="1.27" width="0.2032" layer="94"/>
+<wire x1="2.54" y1="0" x2="3.4798" y2="0" width="0.2032" layer="94"/>
+<wire x1="4.7541" y1="-1.9108" x2="4.7541" y2="1.9108" width="0.1524" layer="94" curve="-74"/>
+<text x="-5.1531" y="-5.5499" size="2.54" layer="96" ratio="10">&gt;Value</text>
+<text x="-4.0848" y="2.0701" size="2.54" layer="95" ratio="10">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="DIODE-DO-214AC(SK34ATR)">
+<deviceset name="20SVPF120M">
 <gates>
-<gate name="D$1" symbol="DIODE-DO-214AC(SK34ATR)" x="0" y="0"/>
+<gate name="G$1" symbol="PCAP_SVP_C6_PAN" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIODE-DO-214AC(SK34ATR)">
+<device name="" package="PCAP_SVP_C6_PAN">
 <connects>
-<connect gate="D$1" pin="1" pad="1"/>
-<connect gate="D$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
