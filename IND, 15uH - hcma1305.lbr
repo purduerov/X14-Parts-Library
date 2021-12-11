@@ -73,15 +73,13 @@
 </layers>
 <library>
 <packages>
-<package name="HCMA1305" urn="urn:adsk.eagle:footprint:24201700/1" locally_modified="yes">
+<package name="HCMA1305" urn="urn:adsk.eagle:footprint:32878762/1">
 <smd name="1" x="-5.6" y="0" dx="3.6" dy="4.9" layer="1"/>
 <smd name="2" x="5.6" y="0" dx="3.6" dy="4.9" layer="1"/>
 <wire x1="-6.9" y1="6.25" x2="6.9" y2="6.25" width="0.127" layer="21"/>
 <wire x1="6.9" y1="6.25" x2="6.9" y2="-6.25" width="0.127" layer="21"/>
 <wire x1="6.9" y1="-6.25" x2="-6.9" y2="-6.25" width="0.127" layer="21"/>
 <wire x1="-6.9" y1="-6.25" x2="-6.9" y2="6.25" width="0.127" layer="21"/>
-<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 <wire x1="-7.112" y1="6.477" x2="7.112" y2="6.477" width="0.1524" layer="39"/>
 <wire x1="7.112" y1="6.477" x2="7.112" y2="2.667" width="0.1524" layer="39"/>
 <wire x1="7.112" y1="2.667" x2="7.62" y2="2.667" width="0.1524" layer="39"/>
@@ -94,10 +92,12 @@
 <wire x1="-7.62" y1="-2.667" x2="-7.62" y2="2.667" width="0.1524" layer="39"/>
 <wire x1="-7.62" y1="2.667" x2="-7.112" y2="2.667" width="0.1524" layer="39"/>
 <wire x1="-7.112" y1="2.667" x2="-7.112" y2="6.477" width="0.1524" layer="39"/>
+<text x="0" y="7.62" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-7.62" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
-<package3d name="HCMA1305" urn="urn:adsk.eagle:package:24201702/2" type="model">
+<package3d name="HCMA1305" urn="urn:adsk.eagle:package:32878763/2" type="model">
 <packageinstances>
 <packageinstance name="HCMA1305"/>
 </packageinstances>
@@ -132,7 +132,7 @@
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:24201702/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32878763/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
