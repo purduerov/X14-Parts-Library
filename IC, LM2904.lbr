@@ -1,8 +1,10 @@
-<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
-<eagle version="7.1.0">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -56,52 +58,7 @@
 </layers>
 <library>
 <packages>
-<package name="DIP08N">
-<description>&lt;b&gt;DIP-8&lt;/b&gt;&lt;br&gt;
-IC package, 8 pins, 0.3" width</description>
-<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.4064" layer="51"/>
-<wire x1="-3.81" y1="2.54" x2="-1.27" y2="2.54" width="0.4064" layer="51"/>
-<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.4064" layer="51"/>
-<wire x1="1.27" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="51"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.4064" layer="51"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.4064" layer="51"/>
-<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.4064" layer="51"/>
-<wire x1="3.81" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="51"/>
-<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="51"/>
-<wire x1="-1.27" y1="-2.54" x2="-3.81" y2="-2.54" width="0.4064" layer="51"/>
-<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.4064" layer="51"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-1.27" width="0.4064" layer="51"/>
-<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.4064" layer="51"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.4064" layer="51"/>
-<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="51" curve="-180"/>
-<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="-3.81" x2="1.27" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="-3.81" x2="3.81" y2="-2.54" width="0.1524" layer="51"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="1.27" y1="2.54" x2="1.27" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="-3.81" y1="2.54" x2="-3.81" y2="3.81" width="0.1524" layer="51"/>
-<wire x1="-4.6038" y1="2.2225" x2="4.6037" y2="2.2225" width="0.254" layer="21"/>
-<wire x1="4.6037" y1="2.2225" x2="4.6037" y2="-2.2225" width="0.254" layer="21"/>
-<wire x1="4.6037" y1="-2.2225" x2="-4.6038" y2="-2.2225" width="0.254" layer="21"/>
-<wire x1="-4.6038" y1="-2.2225" x2="-4.6038" y2="-0.635" width="0.254" layer="21"/>
-<wire x1="-4.6038" y1="0.635" x2="-4.6038" y2="2.2225" width="0.254" layer="21"/>
-<wire x1="-4.6038" y1="-0.635" x2="-4.6038" y2="0.635" width="0.254" layer="21" curve="180"/>
-<text x="-3.3338" y="-0.635" size="1.27" layer="25" ratio="16">&gt;NAME</text>
-<text x="-3.3338" y="-0.635" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
-<text x="-3.3337" y="-2.0637" size="1.016" layer="51" ratio="16" rot="R90">1</text>
-<text x="-5.08" y="-2.2225" size="1.27" layer="21" ratio="16" rot="R90">&gt;NAME</text>
-<pad name="1" x="-3.81" y="-3.81" drill="0.8128" diameter="2.032" first="yes"/>
-<pad name="2" x="-1.27" y="-3.81" drill="0.8128" diameter="2.032"/>
-<pad name="3" x="1.27" y="-3.81" drill="0.8128" diameter="2.032"/>
-<pad name="4" x="3.81" y="-3.81" drill="0.8128" diameter="2.032"/>
-<pad name="5" x="3.81" y="3.81" drill="0.8128" diameter="2.032"/>
-<pad name="6" x="1.27" y="3.81" drill="0.8128" diameter="2.032"/>
-<pad name="7" x="-1.27" y="3.81" drill="0.8128" diameter="2.032"/>
-<pad name="8" x="-3.81" y="3.81" drill="0.8128" diameter="2.032"/>
-</package>
-<package name="DIP08L">
+<package name="DIP08L" urn="urn:adsk.eagle:footprint:32960423/1">
 <description>&lt;b&gt;DIP-8&lt;/b&gt;, long pads&lt;br&gt;
 IC package, 8 pins, 0.3" width</description>
 <wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.4064" layer="51"/>
@@ -146,7 +103,7 @@ IC package, 8 pins, 0.3" width</description>
 <pad name="7" x="-1.27" y="3.81" drill="0.8128" diameter="1.397" shape="long" rot="R90"/>
 <pad name="8" x="-3.81" y="3.81" drill="0.8128" diameter="1.397" shape="long" rot="R90"/>
 </package>
-<package name="DIP08R">
+<package name="DIP08R" urn="urn:adsk.eagle:footprint:32960422/1">
 <description>&lt;b&gt;DIP-8&lt;/b&gt;, reduced pads&lt;br&gt;
 IC package, 8 pins, 0.3" width</description>
 <wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.4064" layer="51"/>
@@ -191,7 +148,52 @@ IC package, 8 pins, 0.3" width</description>
 <pad name="7" x="-1.27" y="3.81" drill="0.8128" diameter="1.397" shape="square"/>
 <pad name="8" x="-3.81" y="3.81" drill="0.8128" diameter="1.397" shape="square"/>
 </package>
-<package name="SO08">
+<package name="DIP08N" urn="urn:adsk.eagle:footprint:32960424/1">
+<description>&lt;b&gt;DIP-8&lt;/b&gt;&lt;br&gt;
+IC package, 8 pins, 0.3" width</description>
+<wire x1="-5.08" y1="2.54" x2="-3.81" y2="2.54" width="0.4064" layer="51"/>
+<wire x1="-3.81" y1="2.54" x2="-1.27" y2="2.54" width="0.4064" layer="51"/>
+<wire x1="-1.27" y1="2.54" x2="1.27" y2="2.54" width="0.4064" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="3.81" y2="2.54" width="0.4064" layer="51"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.4064" layer="51"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.4064" layer="51"/>
+<wire x1="5.08" y1="-2.54" x2="3.81" y2="-2.54" width="0.4064" layer="51"/>
+<wire x1="3.81" y1="-2.54" x2="1.27" y2="-2.54" width="0.4064" layer="51"/>
+<wire x1="1.27" y1="-2.54" x2="-1.27" y2="-2.54" width="0.4064" layer="51"/>
+<wire x1="-1.27" y1="-2.54" x2="-3.81" y2="-2.54" width="0.4064" layer="51"/>
+<wire x1="-3.81" y1="-2.54" x2="-5.08" y2="-2.54" width="0.4064" layer="51"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-1.27" width="0.4064" layer="51"/>
+<wire x1="-5.08" y1="-1.27" x2="-5.08" y2="1.27" width="0.4064" layer="51"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="2.54" width="0.4064" layer="51"/>
+<wire x1="-5.08" y1="1.27" x2="-5.08" y2="-1.27" width="0.254" layer="51" curve="-180"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="-3.81" x2="-1.27" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="-3.81" x2="1.27" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="-2.54" width="0.1524" layer="51"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="1.27" y1="2.54" x2="1.27" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="-3.81" y1="2.54" x2="-3.81" y2="3.81" width="0.1524" layer="51"/>
+<wire x1="-4.6038" y1="2.2225" x2="4.6037" y2="2.2225" width="0.254" layer="21"/>
+<wire x1="4.6037" y1="2.2225" x2="4.6037" y2="-2.2225" width="0.254" layer="21"/>
+<wire x1="4.6037" y1="-2.2225" x2="-4.6038" y2="-2.2225" width="0.254" layer="21"/>
+<wire x1="-4.6038" y1="-2.2225" x2="-4.6038" y2="-0.635" width="0.254" layer="21"/>
+<wire x1="-4.6038" y1="0.635" x2="-4.6038" y2="2.2225" width="0.254" layer="21"/>
+<wire x1="-4.6038" y1="-0.635" x2="-4.6038" y2="0.635" width="0.254" layer="21" curve="180"/>
+<text x="-3.3338" y="-0.635" size="1.27" layer="25" ratio="16">&gt;NAME</text>
+<text x="-3.3338" y="-0.635" size="1.27" layer="27" ratio="16">&gt;VALUE</text>
+<text x="-3.3337" y="-2.0637" size="1.016" layer="51" ratio="16" rot="R90">1</text>
+<text x="-5.08" y="-2.2225" size="1.27" layer="21" ratio="16" rot="R90">&gt;NAME</text>
+<pad name="1" x="-3.81" y="-3.81" drill="0.8128" diameter="2.032" first="yes"/>
+<pad name="2" x="-1.27" y="-3.81" drill="0.8128" diameter="2.032"/>
+<pad name="3" x="1.27" y="-3.81" drill="0.8128" diameter="2.032"/>
+<pad name="4" x="3.81" y="-3.81" drill="0.8128" diameter="2.032"/>
+<pad name="5" x="3.81" y="3.81" drill="0.8128" diameter="2.032"/>
+<pad name="6" x="1.27" y="3.81" drill="0.8128" diameter="2.032"/>
+<pad name="7" x="-1.27" y="3.81" drill="0.8128" diameter="2.032"/>
+<pad name="8" x="-3.81" y="3.81" drill="0.8128" diameter="2.032"/>
+</package>
+<package name="SO08" urn="urn:adsk.eagle:footprint:32960421/1">
 <description>&lt;b&gt;SO-8&lt;/b&gt;, SMD&lt;br&gt;
 SOIC IC package, 8 pins, 0.15" width</description>
 <wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-2.8575" width="0.1524" layer="51"/>
@@ -230,20 +232,37 @@ SOIC IC package, 8 pins, 0.15" width</description>
 <smd name="8" x="-1.905" y="2.8575" dx="0.635" dy="1.778" layer="1"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="DIP08L" urn="urn:adsk.eagle:package:32960429/2" type="model">
+<description>&lt;b&gt;DIP-8&lt;/b&gt;, long pads&lt;br&gt;
+IC package, 8 pins, 0.3" width</description>
+<packageinstances>
+<packageinstance name="DIP08L"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP08N" urn="urn:adsk.eagle:package:32960430/2" type="model">
+<description>&lt;b&gt;DIP-8&lt;/b&gt;&lt;br&gt;
+IC package, 8 pins, 0.3" width</description>
+<packageinstances>
+<packageinstance name="DIP08N"/>
+</packageinstances>
+</package3d>
+<package3d name="DIP08R" urn="urn:adsk.eagle:package:32960428/2" type="model">
+<description>&lt;b&gt;DIP-8&lt;/b&gt;, reduced pads&lt;br&gt;
+IC package, 8 pins, 0.3" width</description>
+<packageinstances>
+<packageinstance name="DIP08R"/>
+</packageinstances>
+</package3d>
+<package3d name="SO08" urn="urn:adsk.eagle:package:32960427/2" type="box">
+<description>&lt;b&gt;SO-8&lt;/b&gt;, SMD&lt;br&gt;
+SOIC IC package, 8 pins, 0.15" width</description>
+<packageinstances>
+<packageinstance name="SO08"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="V+-">
-<wire x1="0" y1="2.54" x2="0" y2="2.2225" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
-<text x="0" y="1.74625" size="1.524" layer="95" align="top-center">&gt;PART</text>
-<text x="0" y="-1.74625" size="1.524" layer="96" align="bottom-center">&gt;VALUE</text>
-<circle x="1.34937" y="-3.81" radius="0.9525" width="0.127" layer="95"/>
-<wire x1="1.34937" y1="-4.28625" x2="1.34937" y2="-3.33375" width="0.127" layer="95"/>
-<circle x="1.34937" y="3.81" radius="0.9525" width="0.127" layer="95"/>
-<wire x1="1.34937" y1="3.33375" x2="1.34937" y2="4.28625" width="0.127" layer="95"/>
-<wire x1="0.873125" y1="3.81" x2="1.82563" y2="3.81" width="0.127" layer="95"/>
-<pin name="V+" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
-<pin name="V-" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
 <symbol name="OP-NAME">
 <wire x1="-3.81" y1="4.445" x2="-3.81" y2="2.54" width="0.4064" layer="94"/>
 <wire x1="-3.81" y1="2.54" x2="-3.81" y2="-2.54" width="0.4064" layer="94"/>
@@ -261,6 +280,19 @@ SOIC IC package, 8 pins, 0.15" width</description>
 <pin name="IN+" x="-7.62" y="-2.54" visible="pad" length="short" direction="in"/>
 <pin name="IN-" x="-7.62" y="2.54" visible="pad" length="short" direction="in"/>
 <pin name="OUT" x="7.62" y="0" visible="pad" length="short" direction="out" rot="R180"/>
+</symbol>
+<symbol name="V+-">
+<wire x1="0" y1="2.54" x2="0" y2="2.2225" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-2.2225" width="0.1524" layer="94"/>
+<wire x1="1.34936875" y1="-4.28625" x2="1.34936875" y2="-3.33375" width="0.127" layer="95"/>
+<wire x1="1.34936875" y1="3.33375" x2="1.34936875" y2="4.28625" width="0.127" layer="95"/>
+<wire x1="0.873125" y1="3.81" x2="1.82563125" y2="3.81" width="0.127" layer="95"/>
+<text x="0" y="1.74625" size="1.524" layer="95" align="top-center">&gt;PART</text>
+<text x="0" y="-1.74625" size="1.524" layer="96" align="bottom-center">&gt;VALUE</text>
+<circle x="1.34936875" y="-3.81" radius="0.9525" width="0.127" layer="95"/>
+<circle x="1.34936875" y="3.81" radius="0.9525" width="0.127" layer="95"/>
+<pin name="V+" x="0" y="5.08" visible="pad" length="short" direction="pwr" rot="R270"/>
+<pin name="V-" x="0" y="-5.08" visible="pad" length="short" direction="pwr" rot="R90"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -299,17 +331,18 @@ Supported &lt;b&gt;SPICE&lt;/b&gt; subcircuits:&lt;br&gt;
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32960430/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="Description" value="
-General Purpose Amplifier 2 Circuit - 8-SOIC
-"/>
-<attribute name="Availability" value="In Stock"/>
-<attribute name="Price" value="None"/>
-<attribute name="Package" value="None"/>
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" General Purpose Amplifier 2 Circuit - 8-SOIC "/>
 <attribute name="MF" value="Texas Instruments"/>
-<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 <attribute name="MP" value="LM2904"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -324,17 +357,18 @@ General Purpose Amplifier 2 Circuit - 8-SOIC
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32960429/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="Description" value="
-General Purpose Amplifier 2 Circuit - 8-SOIC
-"/>
-<attribute name="Availability" value="In Stock"/>
-<attribute name="Price" value="None"/>
-<attribute name="Package" value="None"/>
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" General Purpose Amplifier 2 Circuit - 8-SOIC "/>
 <attribute name="MF" value="Texas Instruments"/>
-<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 <attribute name="MP" value="LM2904"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -349,17 +383,18 @@ General Purpose Amplifier 2 Circuit - 8-SOIC
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32960428/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="Description" value="
-General Purpose Amplifier 2 Circuit - 8-SOIC
-"/>
-<attribute name="Availability" value="In Stock"/>
-<attribute name="Price" value="None"/>
-<attribute name="Package" value="None"/>
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" General Purpose Amplifier 2 Circuit - 8-SOIC "/>
 <attribute name="MF" value="Texas Instruments"/>
-<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 <attribute name="MP" value="LM2904"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -374,17 +409,18 @@ General Purpose Amplifier 2 Circuit - 8-SOIC
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32960427/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="Description" value="
-General Purpose Amplifier 2 Circuit - 8-SOIC
-"/>
-<attribute name="Availability" value="In Stock"/>
-<attribute name="Price" value="None"/>
-<attribute name="Package" value="None"/>
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" General Purpose Amplifier 2 Circuit - 8-SOIC "/>
 <attribute name="MF" value="Texas Instruments"/>
-<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 <attribute name="MP" value="LM2904"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -399,17 +435,18 @@ General Purpose Amplifier 2 Circuit - 8-SOIC
 <connect gate="P" pin="V+" pad="8"/>
 <connect gate="P" pin="V-" pad="4"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32960429/2"/>
+</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="Description" value="
-General Purpose Amplifier 2 Circuit - 8-SOIC
-"/>
-<attribute name="Availability" value="In Stock"/>
-<attribute name="Price" value="None"/>
-<attribute name="Package" value="None"/>
+<attribute name="AVAILABILITY" value="In Stock"/>
+<attribute name="DESCRIPTION" value=" General Purpose Amplifier 2 Circuit - 8-SOIC "/>
 <attribute name="MF" value="Texas Instruments"/>
-<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 <attribute name="MP" value="LM2904"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/LM2904/?ref=eda"/>
 </technology>
 </technologies>
 </device>
@@ -418,4 +455,16 @@ General Purpose Amplifier 2 Circuit - 8-SOIC
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
