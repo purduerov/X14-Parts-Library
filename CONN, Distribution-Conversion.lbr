@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -74,17 +74,17 @@
 <library>
 <packages>
 <package name="TSW-105-05-G-S(D-C)">
-<pad name="1" x="-3.83" y="20.32" drill="0.7"/>
-<pad name="2" x="-1.29" y="20.32" drill="0.7"/>
-<pad name="3" x="1.25" y="20.32" drill="0.7"/>
-<pad name="4" x="3.79" y="20.32" drill="0.7"/>
-<pad name="5" x="-6.37" y="-20.32" drill="0.7"/>
+<pad name="1" x="-3.81" y="20.32" drill="1.016"/>
+<pad name="2" x="-1.27" y="20.32" drill="1.016"/>
+<pad name="3" x="1.27" y="20.32" drill="1.016"/>
+<pad name="4" x="3.81" y="20.32" drill="1.016"/>
+<pad name="5" x="-6.35" y="-20.32" drill="1.016"/>
 <text x="-5.08" y="21.59" size="1.778" layer="25">&gt;NAME</text>
-<pad name="6" x="-3.83" y="-20.32" drill="0.7"/>
-<pad name="7" x="-1.29" y="-20.32" drill="0.7"/>
-<pad name="8" x="1.25" y="-20.32" drill="0.7"/>
-<pad name="9" x="3.79" y="-20.32" drill="0.7"/>
-<pad name="10" x="6.33" y="-20.32" drill="0.7"/>
+<pad name="6" x="-3.81" y="-20.32" drill="1.016"/>
+<pad name="7" x="-1.27" y="-20.32" drill="1.016"/>
+<pad name="8" x="1.27" y="-20.32" drill="1.016"/>
+<pad name="9" x="3.81" y="-20.32" drill="1.016"/>
+<pad name="10" x="6.35" y="-20.32" drill="1.016"/>
 <wire x1="-5.08" y1="21.59" x2="-5.08" y2="19.05" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="19.05" x2="5.08" y2="19.05" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="19.05" x2="5.08" y2="21.59" width="0.1524" layer="21"/>
@@ -95,17 +95,17 @@
 <wire x1="-7.62" y1="-19.05" x2="7.62" y2="-19.05" width="0.1524" layer="21"/>
 </package>
 <package name="TSW-105-05-G-S(C-D)">
-<pad name="4" x="-3.83" y="20.32" drill="0.7"/>
-<pad name="3" x="-1.29" y="20.32" drill="0.7"/>
-<pad name="2" x="1.25" y="20.32" drill="0.7"/>
-<pad name="1" x="3.79" y="20.32" drill="0.7"/>
-<pad name="10" x="-6.37" y="-20.32" drill="0.7"/>
+<pad name="4" x="-3.81" y="20.32" drill="1.016"/>
+<pad name="3" x="-1.27" y="20.32" drill="1.016"/>
+<pad name="2" x="1.27" y="20.32" drill="1.016"/>
+<pad name="1" x="3.81" y="20.32" drill="1.016"/>
+<pad name="10" x="-6.35" y="-20.32" drill="1.016"/>
 <text x="-5.08" y="21.59" size="1.778" layer="25">&gt;NAME</text>
-<pad name="9" x="-3.83" y="-20.32" drill="0.7"/>
-<pad name="8" x="-1.29" y="-20.32" drill="0.7"/>
-<pad name="7" x="1.25" y="-20.32" drill="0.7"/>
-<pad name="6" x="3.79" y="-20.32" drill="0.7"/>
-<pad name="5" x="6.33" y="-20.32" drill="0.7"/>
+<pad name="9" x="-3.81" y="-20.32" drill="1.016"/>
+<pad name="8" x="-1.27" y="-20.32" drill="1.016"/>
+<pad name="7" x="1.27" y="-20.32" drill="1.016"/>
+<pad name="6" x="3.81" y="-20.32" drill="1.016"/>
+<pad name="5" x="6.35" y="-20.32" drill="1.016"/>
 <wire x1="-5.08" y1="21.59" x2="-5.08" y2="19.05" width="0.1524" layer="21"/>
 <wire x1="-5.08" y1="19.05" x2="5.08" y2="19.05" width="0.1524" layer="21"/>
 <wire x1="5.08" y1="19.05" x2="5.08" y2="21.59" width="0.1524" layer="21"/>
